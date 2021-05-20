@@ -1,0 +1,50 @@
+{
+    "name": "yiiliveext/debug-panel-services",
+    "type": "lib",
+    "description": "Yii Debug Panel Services",
+    "keywords": [
+        "yii3",
+        "app",
+        "debug",
+        "logs"
+    ],
+    "homepage": "https://github.com/yiilivext/debug-panel-services/",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisliveext/debug-panel-services/issues?state=open",
+        "forum": "https://www.yiiframework.com/forum/",
+        "wiki": "https://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/debig-panel-services"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4|^8.0",
+        "tuupola/cors-middleware": "^1.2.1",
+        "yiisoft/data-response": "^3.0@dev",
+        "yiisoft/http": "^1.0@dev"
+    },
+    "require-dev": {        
+    },
+    "autoload": {
+        "psr-4": {
+            "Yiiliveext\\Yii\\Debug\\Panel\\Services\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "config-plugin-options": {
+            "output-directory": "config/packages"
+        },
+        "config-plugin": {
+            "params": "config/params.php",
+            "routes": "config/routes.php"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
